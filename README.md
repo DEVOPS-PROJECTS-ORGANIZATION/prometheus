@@ -9,10 +9,6 @@
 * API-gateway (NGINX)
 * Shell Scripting
 
-To destroy infrastructure run the following command in **Git Bash**:
-```shell
-docker-compose down -v
-```
 # Prometheus Instructions (System Monitoring using Prometheus)
 **Start Docker Daemon:** If you're using Docker for Windows, Then simply start the desktop app installed in:
 ```shell
@@ -36,4 +32,8 @@ docker-compose ps
 ```
 ```shell
 docker ps
+```
+To destroy infrastructure run the following command in **Git Bash**:
+```shell
+docker-compose down -v
 ```
