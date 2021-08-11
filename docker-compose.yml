@@ -11,6 +11,7 @@ services:
     volumes:
       - ./prometheus:/etc/prometheus
 #      - prometheus:/var/lib/prometheus
+    command: --web.enable-lifecycle  --config.file=/etc/prometheus/prometheus.yml
 
   alertmanager:
     image: prom/alertmanager:v0.21.0
